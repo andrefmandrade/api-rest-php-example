@@ -1,0 +1,29 @@
+{
+    "name": "andrefmandrade/api-rest-php",
+    "description": "Rest API example",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andre Felipe",
+            "email": "andrefmandrade@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "vlucas/phpdotenv": "^5.1",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    }
+}
